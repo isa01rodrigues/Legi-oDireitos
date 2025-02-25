@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+/********/
+/*HEADER*/
+header nav {
+    background-color: #00274d;
+    width: 100%;
+    height: 100px;
+}
+
+header div div ul {
+
+    display: flex;
+    text-decoration: none;
+    margin: 25px;
+
+}
+
+.navbar-toggler{
+    color: #c1a24b !important;
+}
+
+/********Titulo ***/
+.navbar-light .navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #c1a24b  !important;
+    margin: 25px;
+}
+/****UL LI******/
+.nav-item active{
+    margin: 25px;
+    list-style: none;
+    text-align: end;
+}
+
+.nav-link{
+    color: aliceblue !important;
+}
+
+
+/***********************/
+/*BANNER*/
+.banner img {
+    width: 100%;
+    height: 700px;
+}
+
+/************************/
+/*SEÇÃO HERO*/
+.bloc {
+    padding: 30px;
+}
+
+.jumbotron,
+ .jumbotron-fluid {
+    background-color: #00274d !important;
+    border-radius: 20px !important;
+}
+
+
+.display-4{
+    color: #c1a24b;
+    font-size: 2.5em !important;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.lead{
+    color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.display a {
+    text-decoration: none;
+}
+
+.display h2{
+    color: aliceblue;
+    font-family: 1.9em;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.display h2:hover {
+    color: #c1a24b;
+    font-family: 1.9em;
+    padding-top: 50px;
+    text-align: center;
+
+
+}
+
+/**********************/
+/*AREA DE ATUAÇÃO*/
+.areaAtuacao {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaAtuacao div ul {
+    display: flex;
+    padding: 10px;
+}
+
+.areaAtuacao div li {
+    list-style: none;
+    padding: 2px;
+}
+
+.areaAtuacao a {
+    color: #00274d;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.areaAtuacao a:hover {
+    color: #c1a24b;
+
+}
+
+/**********************/
+/*SOBRE NÓS */
+.bloco {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloco div p {
+    text-align: center;
+    color: #e6b735;
+}
+
+.equipe {
+    padding: 5px;;
+}
+
+.equipe img {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+.historia {
+    padding: 2%;
+}
+
+.historia img {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+.trabalho {
+    padding: 2%;
+}
+
+.trabalho img {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/*********************/
+/*Comentarios*/
+.card{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 350px;
+}
+
+.card-title{
+    color: #c1a24b;
+}
+
+.blockquote-footer{background-color: #00274d;}
+
+
+/***************************/
+/*FOOTER*/
+footer {
+    background-color: #545454;
+    width: 100%;
+    height: 250px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contato {
+    padding: 50px;
+    position: relative;
+
+}
+
+.contato ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.contato li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    position: relative;
+
+}
+
+.redes ul {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.redes li a {
+    color: aliceblue;
+    text-decoration: none;
+}
