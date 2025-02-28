@@ -6,6 +6,20 @@
 a{
     text-decoration: none;
 }
+
+.site{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
+h1, 
+h2,
+a,
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
 /********/
 /*HEADER*/
 header nav {
@@ -139,7 +153,7 @@ header div div ul {
 
 .bloco div p {
     text-align: center;
-    color: #e6b735;
+    color: #dfddd8;
 }
 
 .equipe {
@@ -242,3 +256,71 @@ footer div {
     color: aliceblue;
     text-decoration: none;
 }
+
+/********************/
+/**Pagina contato*/
+.contato{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 590px;
+    margin: 10px;
+    border-radius: 1%0px;
+    background-color: #00274d !important;
+}
+
+.cards ul li a{
+    color: #e6b735;
+    text-decoration: none;
+}
+
+.cards ul li a:hover {
+    color:bisque;
+}
+
+div h2{
+    text-align: center;
+    color: #00274d;
+}
+
+.form{
+    background-color: #545454;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+.form-row label, 
+input{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+label,
+input{
+    color: #e6b735;
+}
+/********************/
+/**Ações Juridicas**/
+.acoesJuric{
+    display: flex;
+}
+
+.blocAcoes{
+
+    padding: 25px;
+    margin: 15px;
+    border:1px solid rgba(0, 0, 0, .125);
+    
+}
+
+.cardA{ 
+    padding: 10px;
+}
+
+
