@@ -1,3 +1,149 @@
-@media (max-width:600px) {
+@media (max-width:390px) {
+    .areaAtuacao div ul {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+
+        &
+     .areaAtuacao div ul li{
+            flex-direction: column;
+            align-items: center;
+        }
+       
+        &
+        a {
+            color: #00274d;
+            font-size: 2.2em;
+        }
+
+       
+        
+    }
+    .card-columns{
+        margin: 8.2%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+ footer{
+    .contato {
+        padding: 30px;
+        position: relative;
+    }
+    .redes {
+        padding: 1px;
+    }
+        &
+    .redes ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+ }
+ &
+ .redes ul img{
+    width: 40px;
+ }
+
     
+}
+
+/****************/
+.contato {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.cards {
+    width: 370px;
+}
+.nav-link {
+    color: black !important;
+}
+.navbar-light .navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #c1a24b !important;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #c1a24b;
+}
+}
+
+@media (max-width:360px) {
+    .areaAtuacao div ul {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+
+        &
+     .areaAtuacao div ul li{
+            flex-direction: column;
+            align-items: center;
+        }
+       
+        &
+        a {
+            color: #00274d;
+            font-size: 1.6em;
+        }
+
+    }
+    .card-columns{
+        margin: 3.2%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+ footer{
+    .contato {
+        padding: 30px;
+        position: relative;
+    }
+    .redes {
+        padding: 1px;
+    }
+        &
+    .redes ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+ }
+ &
+ .redes ul img{
+    width: 40px;
+ }
+
+    
+}
+
+/****************/
+.contato {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.cards {
+    width: 340px;
+}
+.nav-link {
+    color: black !important;
+}
+.navbar-light .navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #c1a24b !important;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #c1a24b;
+}
 }
